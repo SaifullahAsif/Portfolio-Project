@@ -1,7 +1,7 @@
 {
   "name": "portfolio-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a website that I use to display my work, abilities, and expertise in [your profession or industry].",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
