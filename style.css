@@ -1,3 +1,69 @@
+.Template1MobileMain {
+    width: 375px; 
+    height: 5410px; 
+    position: relative; 
+    background: #F7F7F9;
+}
+
+  
+.ToolbarDarkCompact {
+    flex: 1 1 0;
+    align-self: stretch;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 199px;
+    display: inline-flex;
+}
+  
+.LogoPlaceholder {
+    align-self: stretch;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+  
+.MyLogo {
+    text-align: center;
+    color: #6070FF;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+  
+.NormalButtonTertiaryEnabled {
+    align-self: stretch;
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+  
+.IconsIconMenu {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+  
+.Union {
+    width: 18px;
+    height: 12px;
+    left: 3px;
+    top: 6px;
+    position: absolute;
+}
+
 .HeaderBackgroundMobile {
     width: 375px; 
     height: 718px; 
@@ -151,6 +217,100 @@
     transform-origin: 0 0; 
     background: #EBEBFF;
 }
+
+.Headline {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 114px;
+    padding-bottom: 114px;
+    left: 0px;
+    top: 92px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: inline-flex;
+  }
+  
+  .PrimaryText {
+    width: 327px;
+    height: 150px;
+    color: #172B4D;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+  }
+  
+  .PrimaryTextNext {
+    width: 327px;
+    height: 146px;
+    color: #344563;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .SocialMedia {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+  }
+  
+  .SupportingText {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .LetSConnect {
+    color: #7F8CFF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .SocialMediaIcons {
+    width: 170.17px;
+    height: 20px;
+    position: relative;
+  }
+  
+  .Vector {
+    width: 14.17px;
+    height: 20px;
+    position: absolute;
+    background: #505F79;
+  }
+  
+  .Vector {
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    background: #505F79;
+  }
+  
+  .LinkedinIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  }
+  
+  .Vector {
+    width: 12.71px;
+    height: 16.97px;
+    position: absolute;
+    background: #505F79;
+  }
 
 
 
