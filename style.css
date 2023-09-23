@@ -126,24 +126,22 @@
 .Ellipse13 {
   width: 30.1px;
   height: 30.1px;
-  left: 366.18px;
-  top: 436.44px;
+  left: 300.18px;
+  top: 470.44px;
   position: absolute;
-  transform: rotate(69.41deg);
+  transform: rotate(341deg);
   transform-origin: 0 0;
-  background: #ebebff;
   border-radius: 9999px;
 }
 
 .Ellipse12 {
   width: 24.14px;
   height: 12.07px;
-  left: 375.76px;
-  top: 442.69px;
+  left: 318.76px;
+  top: 455.69px;
   position: absolute;
-  transform: rotate(-176.08deg);
+  transform: rotate(7deg);
   transform-origin: 0 0;
-  background: #6070ff;
 }
 
 .Rectangle6 {
