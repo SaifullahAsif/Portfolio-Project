@@ -1,50 +1,156 @@
-.head {
-    display: flex;
-    width: 375px;
-    height: 48px;
-    padding: 4px 24px 4px 12px;
-    align-items: flex-start;
-    gap: 199px;
+.HeaderBackgroundMobile {
+    width: 375px; 
+    height: 718px; 
+    background: white;
     flex-shrink: 0;
 }
+.HeaderShapesMobile {
+    width: 462px; 
+    height: 587.15px; 
+    position: relative;
+ }
 
-.logo {
-    display: flex;
-    padding: 10px 12px;
-    align-items: center;
+.Rectangle7 {
+    width: 26.46px; 
+    height: 4.73px; 
+    left: 161.18px; top: 47.59px; 
+    position: absolute; 
+    transform: rotate(40.77deg); 
+    transform-origin: 0 0; 
+    background: #6070FF;
 }
 
-.logo-text {
-    color: var(--primary-b-400, #6070FF);
-    text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
+.Ellipse5 {
+    width: 11px; 
+    height: 10px; 
+    left: 166.98px; 
+    top: 51.81px; 
+    position: absolute; 
+    transform: rotate(52.97deg); 
+    transform-origin: 0 0; 
+    background: #CBCDFF; 
+    border-radius: 9999px;
 }
 
-.info-container {
-    display: inline-flex;
-    padding: 114px 24px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+.Rectangle5 {
+    width: 68.06px; 
+    height: 12.18px; 
+    left: 225.82px; 
+    top: 549px; 
+    position: absolute;
+    transform: rotate(23.34deg); 
+    transform-origin: 0 0; 
+    background: #EBEBFF;
 }
 
-.ellipse-11 {
-    width: 38.503px;
-    height: 19.252px;
-    transform: rotate(-156.88deg);
-    flex-shrink: 0;
+.Ellipse4 {
+    width: 20px; 
+    height: 20px; 
+    left: 271px;
+    top: 553.10px;
+    position: absolute; 
+    background: #6070FF; 
+    border-radius: 9999px;
 }
 
-.rectangle-6 {
-    width: 51.99px;
-    height: 9.301px;
-    transform: rotate(-46.142deg);
-    top: 141.49px;
-    left: -34px;
-    flex-shrink: 0;
-    background: var(--primary-b-50, #EBEBFF);
+.Ellipse13 {
+    width: 30.10px; 
+    height: 30.10px; 
+    left: 366.18px; 
+    top: 436.44px; 
+    position: absolute; 
+    transform: rotate(69.41deg); 
+    transform-origin: 0 0; 
+    background: #EBEBFF; 
+    border-radius: 9999px;
 }
+
+.Ellipse12 {
+    width: 24.14px; 
+    height: 12.07px; 
+    left: 375.76px; 
+    top: 442.69px; 
+    position: absolute; 
+    transform: rotate(-176.08deg); 
+    transform-origin: 0 0;
+    background: #6070FF;
+}
+
+.Rectangle6 {
+    width: 51.99px; 
+    height: 9.30px; 
+    left: 0px; 
+    top: 37.49px; 
+    position: absolute; 
+    transform: rotate(-46.14deg); 
+    transform-origin: 0 0; 
+    background: #EBEBFF;
+}
+
+.Ellipse11 {
+    width: 38.50px; 
+    height: 19.25px; 
+    left: 50.04px; 
+    top: 57.47px; 
+    position: absolute; 
+    transform: rotate(-156.88deg); 
+    transform-origin: 0 0; 
+    background: #6070FF;
+}
+
+.Ellipse8 {
+    width: 15px; 
+    height: 15px; 
+    left: 248px; 
+    top: 6px; 
+    position: absolute;
+    background: white; 
+    border-radius: 9999px; 
+    border: 1px #CBCDFF solid;
+}
+
+.Ellipse14 {
+    width: 11px; 
+    height: 11px; 
+    left: 332px; 
+    top: 211px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9999px; 
+    border: 1px #CBCDFF solid;
+}
+
+.Ellipse15 {
+    width: 15px; 
+    height: 15px; 
+    left: 87px; 
+    top: 541px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9999px; 
+    border: 1px #CBCDFF solid;
+}
+
+.Ellipse3 {
+    width: 105px; 
+    height: 105px; 
+    left: 357px; 
+    top: 48.24px; 
+    position: absolute;
+    background: #6070FF; 
+    border-radius: 9999px;
+}
+
+.Rectangle4 {
+    width: 95.58px; 
+    height: 22.02px; 
+    left: 328px; 
+    top: 61.79px; 
+    position: absolute; 
+    transform: rotate(-30deg); 
+    transform-origin: 0 0; 
+    background: #EBEBFF;
+}
+
+
+
