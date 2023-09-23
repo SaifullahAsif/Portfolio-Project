@@ -80,7 +80,8 @@
 .Rectangle7 {
     width: 26.46px; 
     height: 4.73px; 
-    left: 161.18px; top: 47.59px; 
+    left: 161.18px; 
+    top: 42.59px; 
     position: absolute; 
     transform: rotate(40.77deg); 
     transform-origin: 0 0; 
@@ -146,8 +147,8 @@
 .Rectangle6 {
     width: 51.99px; 
     height: 9.30px; 
-    left: 0px; 
-    top: 37.49px; 
+    left: -34px; 
+    top: 83.49px;
     position: absolute; 
     transform: rotate(-46.14deg); 
     transform-origin: 0 0; 
@@ -158,7 +159,7 @@
     width: 38.50px; 
     height: 19.25px; 
     left: -10px; 
-    top: 92px; 
+    top: 70px; 
     position: absolute; 
     transform-origin: 0 0; 
 
@@ -200,8 +201,8 @@
 .Ellipse3 {
     width: 105px; 
     height: 105px; 
-    left: 357px; 
-    top: 48.24px; 
+    left: 305px; 
+    top: 80.24px; 
     position: absolute;
     border-radius: 9999px;
 }
@@ -209,8 +210,8 @@
 .Rectangle4 {
     width: 95.58px; 
     height: 22.02px; 
-    left: 328px; 
-    top: 61.79px; 
+    left: 300px; 
+    top: 92.79px; 
     position: absolute; 
     transform: rotate(-30deg); 
     transform-origin: 0 0; 
