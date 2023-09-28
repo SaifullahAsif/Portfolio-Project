@@ -434,4 +434,94 @@
     background: var(--neutrals-n-0, #fff);
     border-top-right-radius: 20%;
   }
+  .MyselfTop {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 12px;
+  }
+  .SkillList {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex;
+  }
+  .Languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .LanguagesTop {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 26px;
+  }
+  .LanguagesTopText {
+    width: 237px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  .ScrollButton {
+    display: inline-flex;
+    align-self: stretch;
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .ScrollIcon {
+    width: 24px; 
+    height: 24px; 
+    position: relative;
+  }
+  .ScrollIconImage {
+    width: 14px; 
+    height: 8px; 
+    left: 5px; 
+    top: 8px; 
+    position: absolute;
+  }
+  .LanguageList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+  }
+  .ListItem {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 303px;
+    padding: 9px 12px 9.716px 12px;
+    background: #F7F7F9;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    gap: 16px;
+  }
+  .LogosInList {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    border: 1px white solid;
+  }
+  .TextInLanguageList {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    line-height: 20px; 
+    word-wrap: break-word;
+  }
 }
