@@ -447,13 +447,13 @@
     align-items: center; 
     display: inline-flex;
   }
-  .Languages {
+  .Frames {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
   }
-  .LanguagesTop {
+  .FramesTop {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
@@ -462,7 +462,7 @@
     padding-left: 12px;
     padding-right: 26px;
   }
-  .LanguagesTopText {
+  .FramesTopText {
     width: 237px;
     color: black;
     font-size: 20px;
@@ -485,15 +485,8 @@
     height: 24px; 
     position: relative;
   }
-  .ScrollIconImage {
-    width: 14px; 
-    height: 8px; 
-    left: 5px; 
-    top: 8px; 
-    position: absolute;
-  }
   .LanguageList {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -523,5 +516,24 @@
     font-weight: 500; 
     line-height: 20px; 
     word-wrap: break-word;
+  }
+  .SeparatorBottom {
+    width: 327px; 
+    height: 1px; 
+    left: 0px; 
+    top: 71px; 
+    position: absolute; 
+    background: #DFE1E6
+  }
+  .Framework {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .Separator {
+    width: 327px; 
+    height: 1px; 
+    background: #DFE1E6;
   }
 }
