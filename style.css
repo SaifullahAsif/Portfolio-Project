@@ -235,8 +235,7 @@
   }
 
   .PrimaryText {
-    width: 327px;
-    height: 150px;
+    width: 90%;
     color: #172b4d;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
@@ -294,11 +293,12 @@
     gap: 88px;
   }
 
-  .Project1 {
+  .Project {
     display: flex;
     padding: 16px;
     flex-direction: column;
     align-items: flex-start;
+    border: 1px #DFE1E6 solid;
     gap: 12px;
     justify-content: flex-start;
     border-radius: 16px;
@@ -310,10 +310,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 32px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
+    word-wrap: break-word;
+    color: #172B4D;
   }
 
   .ProjectFrame {
@@ -323,6 +325,7 @@
     font-weight: 600;
     justify-content: flex-start;
     gap: 12px;
+    color: #344563;
   }
 
   .ProjectFrameDetail {
@@ -391,7 +394,7 @@
     word-wrap: break-word;
   }
 
-  .BtnSeeProject {
+  .FreeButton {
     display: flex;
     align-items: center;
   }
@@ -408,7 +411,7 @@
     display: inline-flex;
   }
 
-  .SpecifiedBtnSeeProject {
+  .SpecifiedBtnSeeDetails {
     text-align: center;
     color: #396df2;
     font-size: 17px;
@@ -422,5 +425,13 @@
   a:hover {
     background-color: #6070ff;
     color: #f7f7f9;
+  }
+  .AboutMyself {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 100%;
+    align-items: center;
+    background: var(--neutrals-n-0, #fff);
+    border-top-right-radius: 20%;
   }
 }
