@@ -3,8 +3,8 @@
   /* CSS styles for mobile screens */
 
   .Template1MobileMain {
+    display: grid;
     width: 375px;
-    height: 5410px;
     position: relative;
     background: #f7f7f9;
     overflow: hidden;
@@ -535,5 +535,37 @@
     width: 327px; 
     height: 1px; 
     background: #DFE1E6;
+  }
+  .ContactMe {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 100%;
+    align-items: center;
+    gap: 88px;
+    border-top-left-radius: 20%;
+    background:var(--primary-b-400, #6070FF);
+  }
+  .ContactMeTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: var(--neutrals-n-0, #FFF);
+  }
+  .ContactMeTopText {
+    text-align: center; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .ContactMeDetails {
+    width: 327px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
   }
 }
