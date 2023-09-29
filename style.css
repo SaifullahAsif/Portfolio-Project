@@ -218,6 +218,47 @@
     transform-origin: 0 0;
     background: #ebebff;
   }
+  
+    /* Animations of all the Ellipses are here */
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Ellipse3{
+    animation: rotate 5s infinite;
+  }
+  .Ellipse12{
+    animation: rotate 5s infinite;
+  }
+  .Ellipse13{
+    animation: rotate 5s infinite;
+  }
+  .Ellipse11{
+    animation: rotate 5s infinite;
+  }
+  .Ellipse5{
+    animation: rotate 5s infinite;
+  }
+  .Rectangle4{
+    animation: rotate 5s infinite;
+  }
+  .Rectangle5{
+    animation: rotate 5s infinite;
+  }
+  .Rectangle6{
+    animation: rotate 5s infinite;
+  }
+  .Rectangle7{
+    animation: rotate 5s infinite;
+  }
+  
 
   .Headline {
     padding-left: 24px;
@@ -279,6 +320,13 @@
     word-wrap: break-word;
   }
 
+  .LetSConnect:hover {
+    color:#96afff;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
   .SocialMediaIcons {
     width: 170.17px;
     height: 20px;
@@ -344,6 +392,9 @@
     color: var(--neutrals-n-600, #344563);
   }
 
+  ul {
+    padding-inline-start: 0px;
+  }
   .Tags {
     display: flex;
     justify-content: flex-start;
@@ -394,6 +445,14 @@
     word-wrap: break-word;
   }
 
+  button {
+    background-color: white;
+  }
+  button:hover {
+    background-color: #6070ff;
+    color: #f7f7f9;
+  }
+
   .FreeButton {
     display: flex;
     align-items: center;
@@ -421,11 +480,7 @@
     letter-spacing: 0.51px;
     word-wrap: break-word;
   }
-
-  a:hover {
-    background-color: #6070ff;
-    color: #f7f7f9;
-  }
+  
   .AboutMyself {
     display: grid;
     padding: 114px 24px;
