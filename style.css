@@ -90,6 +90,7 @@
     transform: rotate(40.77deg);
     transform-origin: 0 0;
     background: #6070ff;
+    animation: rotate 5s infinite;
   }
 
   .Ellipse5 {
@@ -102,6 +103,7 @@
     transform-origin: 0 0;
     background: #cbcdff;
     border-radius: 9999px;
+    animation: rotate 5s infinite;
   }
 
   .Rectangle5 {
@@ -113,6 +115,7 @@
     transform: rotate(23.34deg);
     transform-origin: 0 0;
     background: #ebebff;
+    animation: rotate 5s infinite;
   }
 
   .Ellipse4 {
@@ -134,6 +137,7 @@
     transform: rotate(341deg);
     transform-origin: 0 0;
     border-radius: 9999px;
+    animation: rotate 5s infinite;
   }
 
   .Ellipse12 {
@@ -144,6 +148,7 @@
     position: absolute;
     transform: rotate(7deg);
     transform-origin: 0 0;
+    animation: rotate 5s infinite;
   }
 
   .Rectangle6 {
@@ -155,6 +160,7 @@
     transform: rotate(-46.14deg);
     transform-origin: 0 0;
     background: #ebebff;
+    animation: rotate 5s infinite;
   }
 
   .Ellipse11 {
@@ -164,6 +170,7 @@
     top: 70px;
     position: absolute;
     transform-origin: 0 0;
+    animation: rotate 5s infinite;
   }
 
   .Ellipse8 {
@@ -206,6 +213,7 @@
     top: 80.24px;
     position: absolute;
     border-radius: 9999px;
+    animation: rotate 5s infinite;
   }
 
   .Rectangle4 {
@@ -217,48 +225,20 @@
     transform: rotate(-30deg);
     transform-origin: 0 0;
     background: #ebebff;
+    animation: rotate 5s infinite;
   }
-  
-    /* Animations of all the Ellipses are here */
+
+  /* Animations of all the Ellipses are here */
 
   @keyframes rotate {
     0% {
       transform: rotate(0deg);
     }
-  
+
     100% {
       transform: rotate(360deg);
     }
   }
-  
-  .Ellipse3{
-    animation: rotate 5s infinite;
-  }
-  .Ellipse12{
-    animation: rotate 5s infinite;
-  }
-  .Ellipse13{
-    animation: rotate 5s infinite;
-  }
-  .Ellipse11{
-    animation: rotate 5s infinite;
-  }
-  .Ellipse5{
-    animation: rotate 5s infinite;
-  }
-  .Rectangle4{
-    animation: rotate 5s infinite;
-  }
-  .Rectangle5{
-    animation: rotate 5s infinite;
-  }
-  .Rectangle6{
-    animation: rotate 5s infinite;
-  }
-  .Rectangle7{
-    animation: rotate 5s infinite;
-  }
-  
 
   .Headline {
     padding-left: 24px;
@@ -321,12 +301,14 @@
   }
 
   .LetSConnect:hover {
-    color:#96afff;
+    color: #96afff;
     cursor: pointer;
   }
+
   a {
     text-decoration: none;
   }
+
   .SocialMediaIcons {
     width: 170.17px;
     height: 20px;
@@ -336,7 +318,7 @@
   .WorkSection {
     display: grid;
     padding: 114px 24px;
-    grid-template-columns: 100%;
+    grid-template-columns: 94%;
     align-items: center;
     gap: 88px;
   }
@@ -346,7 +328,7 @@
     padding: 16px;
     flex-direction: column;
     align-items: flex-start;
-    border: 1px #DFE1E6 solid;
+    border: 1px #dfe1e6 solid;
     gap: 12px;
     justify-content: flex-start;
     border-radius: 16px;
@@ -363,7 +345,7 @@
     font-style: normal;
     font-weight: 700;
     word-wrap: break-word;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .ProjectFrame {
@@ -393,8 +375,9 @@
   }
 
   ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
   }
+
   .Tags {
     display: flex;
     justify-content: flex-start;
@@ -448,6 +431,7 @@
   button {
     background-color: white;
   }
+
   button:hover {
     background-color: #6070ff;
     color: #f7f7f9;
@@ -480,34 +464,38 @@
     letter-spacing: 0.51px;
     word-wrap: break-word;
   }
-  
+
   .AboutMyself {
     display: grid;
     padding: 114px 24px;
-    grid-template-columns: 100%;
+    grid-template-columns: 94%;
     align-items: center;
     background: var(--neutrals-n-0, #fff);
     border-top-right-radius: 20%;
   }
+
   .MyselfTop {
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 12px;
   }
+
   .SkillList {
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: center; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     display: inline-flex;
   }
+
   .Frames {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   .FramesTop {
     display: inline-flex;
     justify-content: flex-start;
@@ -517,6 +505,7 @@
     padding-left: 12px;
     padding-right: 26px;
   }
+
   .FramesTopText {
     width: 237px;
     color: black;
@@ -526,6 +515,7 @@
     line-height: 24px;
     word-wrap: break-word;
   }
+
   .ScrollButton {
     display: inline-flex;
     align-self: stretch;
@@ -535,11 +525,13 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   .ScrollIcon {
-    width: 24px; 
-    height: 24px; 
+    width: 24px;
+    height: 24px;
     position: relative;
   }
+
   .LanguageList {
     display: inline-flex;
     flex-direction: column;
@@ -548,73 +540,83 @@
     padding: 12px;
     gap: 12px;
   }
+
   .ListItem {
     display: inline-flex;
     justify-content: flex-start;
     width: 303px;
     padding: 9px 12px 9.716px 12px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     overflow: hidden;
     align-items: center;
     gap: 16px;
   }
+
   .LogosInList {
     width: 48px;
     height: 48px;
     border-radius: 9999px;
     border: 1px white solid;
   }
+
   .TextInLanguageList {
     font-size: 15px;
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 500; 
-    line-height: 20px; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
     word-wrap: break-word;
   }
+
   .SeparatorBottom {
-    width: 327px; 
-    height: 1px; 
-    left: 0px; 
-    top: 71px; 
-    position: absolute; 
-    background: #DFE1E6
+    width: 327px;
+    height: 1px;
+    left: 0;
+    top: 71px;
+    position: absolute;
+    background: #dfe1e6;
   }
+
   .Framework {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   .Separator {
-    width: 327px; 
-    height: 1px; 
-    background: #DFE1E6;
+    width: 327px;
+    height: 1px;
+    background: #dfe1e6;
   }
+
   .ContactMe {
     display: grid;
     padding: 114px 24px;
-    grid-template-columns: 100%;
+    grid-template-columns: 94%;
     align-items: center;
     gap: 88px;
     border-top-left-radius: 20%;
-    background:var(--primary-b-400, #6070FF);
+    background: var(--primary-b-400, #6070ff);
   }
+
   .ContactMeTop {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 12px;
-    color: var(--neutrals-n-0, #FFF);
+    color: var(--neutrals-n-0, #fff);
   }
+
   .ContactMeTopText {
-    text-align: center; 
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
   }
+
   .ContactMeDetails {
     width: 327px;
     text-align: center;
@@ -622,5 +624,49 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+  }
+
+  .email {
+    width: 327px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    align-self: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    resize: none;
+    text-align: justify;
+    align-items: center;
+  }
+
+  .message {
+    width: 327px;
+    height: 170px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    resize: none;
+  }
+
+  .footer {
+    width: 134px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0d151e;
+    align-self: center;
+  }
+
+  .form-spree {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
   }
 }
