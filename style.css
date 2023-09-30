@@ -625,48 +625,4 @@
     font-style: normal;
     font-weight: 400;
   }
-
-  .email {
-    width: 327px;
-    height: 30px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    align-self: center;
-    margin-bottom: 20px;
-    font-size: 17px;
-    font-weight: 400;
-    resize: none;
-    text-align: justify;
-    align-items: center;
-  }
-
-  .message {
-    width: 327px;
-    height: 170px;
-    flex-shrink: 0;
-    align-self: center;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 15px;
-    font-weight: 400;
-    resize: none;
-  }
-
-  .footer {
-    width: 134px;
-    height: 5px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #0d151e;
-    align-self: center;
-  }
-
-  .form-spree {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
 }
