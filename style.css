@@ -518,7 +518,7 @@
 
   .ScrollButton {
     display: inline-flex;
-    align-self: stretch;
+    align-self: center;
     padding: 8px;
     border-radius: 8px;
     overflow: hidden;
