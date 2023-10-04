@@ -1,5 +1,5 @@
 /* Mobile styles */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
   /* CSS styles for mobile screens */
 
   .Template1MobileMain {
@@ -69,8 +69,7 @@
   }
 
   .HeaderBackgroundMobile {
-    width: 375px;
-    height: 718px;
+    
     background: white;
     flex-shrink: 0;
   }
@@ -673,4 +672,716 @@
   .ContactShapesMobile {
     position: relative;
   }
+
+  .Links {
+    display: none;
+  }
+}
+
+/* For Desktop version! */
+
+@media screen and (min-width: 768px) {
+
+  .Links {
+    display: inline-flex;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .Template1MobileMain {
+    display: grid;
+    position: relative;
+    background: #f7f7f9;
+    overflow: hidden;
+  }
+
+  .ToolbarDarkCompact {
+    display: inline-flex;
+    align-self: center;
+    padding: 16px 143px;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    position: sticky;
+  }
+
+  .LogoPlaceholder {
+    display: inline-flex;
+    align-self: stretch;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .MyLogo {
+    text-align: center;
+    color: #6070ff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+
+  .NormalButtonTertiaryEnabled {
+    z-index: 1;
+    display: none;
+  }
+
+  .IconsIconMenu {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+
+  .Union {
+    width: 18px;
+    height: 12px;
+    left: 3px;
+    top: 6px;
+    position: absolute;
+  }
+
+  .HeaderBackgroundMobile {
+    display: flex;
+    background: white;
+    padding: 289px 260px;
+  }
+
+  .HeaderShapesMobile {
+    display: flex;
+    padding: 289px 260px;
+    position: relative;
+  }
+
+  .Rectangle7 {
+    width: 26.46px;
+    height: 4.73px;
+    left: 161.18px;
+    top: 42.59px;
+    position: absolute;
+    transform: rotate(40.77deg);
+    transform-origin: 0 0;
+    background: #6070ff;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse5 {
+    width: 11px;
+    height: 10px;
+    left: 166.98px;
+    top: 51.81px;
+    position: absolute;
+    transform: rotate(52.97deg);
+    transform-origin: 0 0;
+    background: #cbcdff;
+    border-radius: 9999px;
+    animation: rotate 5s infinite;
+  }
+
+  .Rectangle5 {
+    width: 68.06px;
+    height: 12.18px;
+    left: 225.82px;
+    top: 549px;
+    position: absolute;
+    transform: rotate(23.34deg);
+    transform-origin: 0 0;
+    background: #ebebff;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse4 {
+    width: 20px;
+    height: 20px;
+    left: 271px;
+    top: 553.1px;
+    position: absolute;
+    background: #6070ff;
+    border-radius: 9999px;
+  }
+
+  .Ellipse13 {
+    width: 30.1px;
+    height: 30.1px;
+    left: 300.18px;
+    top: 470.44px;
+    position: absolute;
+    transform: rotate(341deg);
+    transform-origin: 0 0;
+    border-radius: 9999px;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse12 {
+    width: 24.14px;
+    height: 12.07px;
+    left: 318.76px;
+    top: 455.69px;
+    position: absolute;
+    transform: rotate(7deg);
+    transform-origin: 0 0;
+    animation: rotate 5s infinite;
+  }
+
+  .Rectangle6 {
+    width: 51.99px;
+    height: 9.3px;
+    left: -34px;
+    top: 83.49px;
+    position: absolute;
+    transform: rotate(-46.14deg);
+    transform-origin: 0 0;
+    background: #ebebff;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse11 {
+    width: 38.5px;
+    height: 19.25px;
+    left: -10px;
+    top: 70px;
+    position: absolute;
+    transform-origin: 0 0;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse8 {
+    width: 15px;
+    height: 15px;
+    left: 248px;
+    top: 6px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    border: 1px #cbcdff solid;
+  }
+
+  .Ellipse14 {
+    width: 11px;
+    height: 11px;
+    left: 332px;
+    top: 211px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    border: 1px #cbcdff solid;
+  }
+
+  .Ellipse15 {
+    width: 15px;
+    height: 15px;
+    left: 87px;
+    top: 541px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    border: 1px #cbcdff solid;
+  }
+
+  .Ellipse3 {
+    width: 105px;
+    height: 105px;
+    left: 305px;
+    top: 80.24px;
+    position: absolute;
+    border-radius: 9999px;
+    animation: rotate 5s infinite;
+  }
+
+  .Rectangle4 {
+    width: 95.58px;
+    height: 22.02px;
+    left: 300px;
+    top: 92.79px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+    background: #ebebff;
+    animation: rotate 5s infinite;
+  }
+
+  /* Animations of all the Ellipses are here */
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .Headline {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 114px;
+    padding-bottom: 114px;
+    left: 0;
+    top: 92px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    display: inline-flex;
+  }
+
+  .PrimaryText {
+    width: 90%;
+    color: #172b4d;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+  }
+
+  .PrimaryTextNext {
+    width: 327px;
+    height: 146px;
+    color: #344563;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .SocialMedia {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+  }
+
+  .SupportingText {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+
+  .LetSConnect {
+    color: #7f8cff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .LetSConnect:hover {
+    color: #96afff;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .SocialMediaIcons {
+    width: 170.17px;
+    height: 20px;
+    position: relative;
+  }
+
+  .WorkSection {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 94%;
+    align-items: center;
+    gap: 88px;
+  }
+
+  .Project {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px #dfe1e6 solid;
+    gap: 12px;
+    justify-content: flex-start;
+    border-radius: 16px;
+    background: var(--neutrals-n-0, #fff);
+  }
+
+  .ProjectText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    word-wrap: break-word;
+    color: #172b4d;
+  }
+
+  .ProjectFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    justify-content: flex-start;
+    gap: 12px;
+    color: #344563;
+  }
+
+  .ProjectFrameDetail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--neutrals-n-100, #7a869a);
+  }
+
+  .ProjectDetail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--neutrals-n-600, #344563);
+  }
+
+  ul {
+    padding-inline-start: 0;
+  }
+
+  .Tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .Tag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: white;
+    border-radius: 8px;
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .Html {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+
+  .Css {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+
+  .Js {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+
+  button {
+    background-color: white;
+  }
+
+  button:hover {
+    background-color: #6070ff;
+    color: #f7f7f9;
+  }
+
+  .FreeButton {
+    display: flex;
+    align-items: center;
+  }
+
+  .NormalBtn {
+    align-self: stretch;
+    padding: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px #6070ff solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+
+  .SpecifiedBtnSeeDetails {
+    text-align: center;
+    color: #396df2;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    word-wrap: break-word;
+  }
+
+  .AboutMyself {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 94%;
+    align-items: center;
+    background: var(--neutrals-n-0, #fff);
+    border-top-right-radius: 20%;
+  }
+
+  .MyselfTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .SkillList {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+
+  .Frames {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .FramesTop {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 26px;
+  }
+
+  .FramesTopText {
+    width: 237px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .ScrollButton {
+    display: inline-flex;
+    align-self: center;
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .ScrollIcon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+
+  .LanguageList {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .ListItem {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 303px;
+    padding: 9px 12px 9.716px 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .LogosInList {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    border: 1px white solid;
+  }
+
+  .TextInLanguageList {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+
+  .SeparatorBottom {
+    width: 327px;
+    height: 1px;
+    left: 0;
+    top: 71px;
+    position: absolute;
+    background: #dfe1e6;
+  }
+
+  .Framework {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .Separator {
+    width: 327px;
+    height: 1px;
+    background: #dfe1e6;
+  }
+
+  .ContactMe {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 94%;
+    align-items: center;
+    gap: 88px;
+    border-top-left-radius: 20%;
+    background: var(--primary-b-400, #6070ff);
+  }
+
+  .ContactMeTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: var(--neutrals-n-0, #fff);
+  }
+
+  .ContactMeTopText {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .ContactMeDetails {
+    width: 327px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .email {
+    width: 327px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    align-self: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    resize: none;
+    text-align: justify;
+    align-items: center;
+  }
+
+  .message {
+    width: 327px;
+    height: 170px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    resize: none;
+  }
+
+  .footer {
+    width: 134px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0d151e;
+    align-self: center;
+  }
+
+  .form-spree {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .ContactShapesMobile {
+    position: relative;
+  }
+
+  
 }
