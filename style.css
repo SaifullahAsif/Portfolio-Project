@@ -240,8 +240,12 @@
     }
   }
 
-  @keyframes slide-right {
-    to {
+  @keyframes rotator {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
       transform: translateY(0);
     }
   }
@@ -993,7 +997,7 @@
     align-self: stretch;
     flex: 1;
     justify-content: flex-start;
-
+    animation: slide 1s ease-in-out;
   }
 
   .PrimaryTextNext {
@@ -1447,5 +1451,29 @@
     position: relative;
   }
 
-  
+  .GetInTouch {
+    text-align: center;
+    color: #396df2;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ContactMeBackground {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-image: url("public\images\ContactBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
