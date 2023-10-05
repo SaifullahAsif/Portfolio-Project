@@ -1056,10 +1056,12 @@
 
   .Project:hover {
     cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 2px 2px #151c53;
   }
 
   .Project:active {
-    border: 2px solid rgb(4, 4, 48);
+    border: 2px solid rgb(126, 0, 27);
   }
 
   .leftBlock {
@@ -1410,16 +1412,19 @@
 
   .email {
     width: 80%;
-    height: 30px;
+    height: 35px;
     flex-shrink: 0;
+    padding-top: 10px;
+    padding-left: 10px;
     border-radius: 8px;
     align-self: center;
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     resize: none;
     text-align: justify;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
   }
 
   .message {
@@ -1434,6 +1439,7 @@
     font-size: 15px;
     font-weight: 400;
     resize: none;
+    font-family: 'Poppins', sans-serif;
   }
 
   .footer {
@@ -1468,5 +1474,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .SpecifiedBtnSeeDetails:active {
+    color: brown;
   }
 }
