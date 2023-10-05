@@ -1043,7 +1043,7 @@ flex-shrink: 0;
   .WorkSection {
     display: grid;
     padding: 114px 24px;
-    grid-template-columns: 94%;
+    grid-template-columns: 100%;
     align-items: center;
     gap: 88px;
   }
@@ -1051,13 +1051,21 @@ flex-shrink: 0;
   .Project {
     display: flex;
     padding: 16px;
-    flex-direction: column;
+    flex-flow: row wrap;
     align-items: flex-start;
     border: 1px #dfe1e6 solid;
     gap: 12px;
     justify-content: flex-start;
     border-radius: 16px;
     background: var(--neutrals-n-0, #fff);
+  }
+
+  .leftBlock {
+    flex: 1;
+  }
+
+  .rightBlock {
+    flex: 1;
   }
 
   .ProjectText {
