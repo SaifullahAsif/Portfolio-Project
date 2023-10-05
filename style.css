@@ -240,6 +240,12 @@
     }
   }
 
+  @keyframes slide-right {
+    to {
+      transform: translateY(0);
+    }
+  }
+
   .Headline {
     padding-left: 24px;
     padding-right: 24px;
@@ -906,8 +912,8 @@
 
   .Ellipse14 {
     width: 23px;
-height: 23px;
-flex-shrink: 0;
+    height: 23px;
+    flex-shrink: 0;
     left: 332px;
     top: 211px;
     position: absolute;
@@ -929,8 +935,8 @@ flex-shrink: 0;
 
   .Ellipse3 {
     width: 224px;
-height: 224px;
-flex-shrink: 0;
+    height: 224px;
+    flex-shrink: 0;
     left: 900px;
     top: 80.24px;
     position: absolute;
@@ -1066,6 +1072,16 @@ flex-shrink: 0;
 
   .rightBlock {
     flex: 1;
+  }
+
+  .snapshot {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
   }
 
   .ProjectText {
@@ -1209,6 +1225,26 @@ flex-shrink: 0;
     border-top-right-radius: 20%;
   }
 
+  .CollapsedAboutMyself {
+    display: flex;
+    padding: 16px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    border: 1px #dfe1e6 solid;
+    gap: 12px;
+    justify-content: flex-start;
+    border-radius: 16px;
+    background: var(--neutrals-n-0, #fff);
+  }
+
+  .MyselfLeftBlock {
+    flex: 1;
+  }
+
+  .MyselfRightBlock {
+    flex: 2;
+  }
+
   .MyselfTop {
     display: flex;
     flex-direction: column;
@@ -1220,8 +1256,8 @@ flex-shrink: 0;
   .SkillList {
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    display: inline-flex;
+    align-items: flex-start;
+    display: flex;
   }
 
   .Frames {
@@ -1232,8 +1268,9 @@ flex-shrink: 0;
   }
 
   .FramesTop {
+    align-self: stretch;
     display: inline-flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -1269,7 +1306,7 @@ flex-shrink: 0;
 
   .LanguageList {
     display: inline-flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
     padding: 12px;
@@ -1277,14 +1314,15 @@ flex-shrink: 0;
   }
 
   .ListItem {
-    display: inline-flex;
+    display: flex;
+    width: 122px;
+    flex-flow: column wrap;
     justify-content: flex-start;
-    width: 303px;
-    padding: 9px 12px 9.716px 12px;
+    padding: 12px 12px 20px 12px;
     background: #f7f7f9;
     border-radius: 8px;
     overflow: hidden;
-    align-items: center;
+    align-items: flex-start;
     gap: 16px;
   }
 
@@ -1304,7 +1342,7 @@ flex-shrink: 0;
   }
 
   .SeparatorBottom {
-    width: 327px;
+    flex: 1;
     height: 1px;
     left: 0;
     top: 71px;
@@ -1320,7 +1358,7 @@ flex-shrink: 0;
   }
 
   .Separator {
-    width: 327px;
+    width: -webkit-fill-available;
     height: 1px;
     background: #dfe1e6;
   }
