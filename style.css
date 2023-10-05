@@ -687,6 +687,10 @@
   .Links {
     display: none;
   }
+
+  .RubyRailsPc {
+    display: none;
+  }
 }
 
 /* For Desktop version! */
@@ -697,7 +701,7 @@
     display: inline-flex;
   }
 
-  
+
 
 
 
@@ -803,10 +807,10 @@
   }
 
   .Rectangle7 {
-    width: 56.012px;
+    width: 56.01px;
     height: 10.02px;
-    left: 161.18px;
-    top: 42.59px;
+    top: 261.57px;
+    left: 693.25px;
     position: absolute;
     transform: rotate(40.77deg);
     transform-origin: 0 0;
@@ -818,7 +822,7 @@
     width: 23px;
     height: 23px;
     flex-shrink: 0;
-    left: 166.98px;
+    left: 257px;
     top: 51.81px;
     position: absolute;
     transform: rotate(52.97deg);
@@ -1147,10 +1151,20 @@
     padding-right: 12px;
     padding-top: 4px;
     padding-bottom: 4px;
-    background: white;
+    background: #EBEBFF;
     border-radius: 8px;
-    color: #344563;
+    color: #6070FF;
     font-family: 'Poppins', sans-serif;
+  }
+
+  .RubyRailsPc {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
   }
 
   .Html {
@@ -1463,17 +1477,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .ContactMeBackground {
-    position: relative;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    background-image: url("public\images\ContactBackground.png");
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 }
