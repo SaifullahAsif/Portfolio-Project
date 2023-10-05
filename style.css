@@ -989,6 +989,21 @@
     padding: 1rem 16.25rem;
   }
 
+  .NavigationList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: white;
+    border-radius: 8px;
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+  }
+
   .PrimaryText {
     color: #091E42;
     font-size: 3rem;
@@ -1072,6 +1087,15 @@
     justify-content: flex-start;
     border-radius: 16px;
     background: var(--neutrals-n-0, #fff);
+  }
+
+  .Project:hover{
+    cursor: pointer;
+    box-shadow: #0d151e;
+  }
+
+  .Project:active{
+    border: 2px solid rgb(4, 4, 48);
   }
 
   .leftBlock {
@@ -1384,7 +1408,7 @@
   .ContactMe {
     display: grid;
     padding: 114px 24px;
-    grid-template-columns: 94%;
+    grid-template-columns: 100%;
     align-items: center;
     gap: 88px;
     border-top-left-radius: 20%;
@@ -1401,6 +1425,8 @@
   }
 
   .ContactMeTopText {
+    align-self: stretch;
+    word-wrap: break-word;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
@@ -1409,7 +1435,8 @@
   }
 
   .ContactMeDetails {
-    width: 327px;
+    width: 80%;
+    align-self: center;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -1418,7 +1445,7 @@
   }
 
   .email {
-    width: 327px;
+    width: 80%;
     height: 30px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -1432,7 +1459,7 @@
   }
 
   .message {
-    width: 327px;
+    width: 80%;
     height: 170px;
     flex-shrink: 0;
     align-self: center;
