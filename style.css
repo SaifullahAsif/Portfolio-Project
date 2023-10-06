@@ -980,15 +980,6 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  .NavigationList:hover {
-    background-color: #6070ff;
-    cursor: pointer;
-  }
-
-  .NavigationList:active {
-    background-color: black;
-  }
-
   .PrimaryText {
     color: #091e42;
     font-size: 3rem;
@@ -1027,6 +1018,8 @@
     animation: 2s slide forwards;
     transform: translateY(100%);
   }
+
+  .PrimaryText  .PrimaryTextNext  .Socazzz
 
   .SupportingText {
     justify-content: flex-start;
@@ -1083,10 +1076,6 @@
     cursor: pointer;
     transform: scale(1.02);
     box-shadow: 2px 2px 2px 2px #151c53;
-  }
-
-  .Project:active {
-    border: 2px solid rgb(126, 0, 27);
   }
 
   .leftBlock {
@@ -1500,7 +1489,6 @@
   }
 
   .SpecifiedBtnSeeDetails:active {
-    color: white;
-    background-color: black;
+    color: brown;
   }
 }
