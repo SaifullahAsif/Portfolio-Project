@@ -240,16 +240,6 @@
     }
   }
 
-  @keyframes rotator {
-    0% {
-      transform: translateY(-100%);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-  }
-
   .Headline {
     padding-left: 24px;
     padding-right: 24px;
@@ -764,6 +754,7 @@
     align-items: flex-start;
     background: white;
     border-bottom-left-radius: 20%;
+    position: relative;
   }
 
   .HeaderShapesMobile {
@@ -771,7 +762,17 @@
     position: relative;
   }
 
+  .HeaderShapesMobile img {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+  }
+
   .Rectangle7 {
+    display: flex;
+    align-self: center;
     width: 56.01px;
     height: 10.02px;
     top: 261.57px;
@@ -907,6 +908,8 @@
   }
 
   .Ellipse3 {
+    display: flex;
+    align-self: center;
     width: 224px;
     height: 224px;
     flex-shrink: 0;
@@ -918,6 +921,8 @@
   }
 
   .Rectangle4 {
+    display: flex;
+    align-self: center;
     width: 204px;
     height: 47px;
     flex-shrink: 0;
@@ -939,6 +944,12 @@
 
     100% {
       transform: rotate(360deg);
+    }
+  }
+
+  @keyframes slide {
+    to {
+      transform: translateY(0);
     }
   }
 
@@ -969,6 +980,15 @@
     font-family: 'Poppins', sans-serif;
   }
 
+  .NavigationList:hover {
+    background-color: #6070ff;
+    cursor: pointer;
+  }
+
+  .NavigationList:active {
+    background-color: black;
+  }
+
   .PrimaryText {
     color: #091e42;
     font-size: 3rem;
@@ -981,7 +1001,8 @@
     align-self: stretch;
     flex: 1;
     justify-content: flex-start;
-    animation: slide 1s ease-in-out;
+    animation: 2s slide forwards;
+    transform: translateY(-100%);
   }
 
   .PrimaryTextNext {
@@ -993,6 +1014,8 @@
     word-wrap: break-word;
     align-self: stretch;
     flex: 1;
+    animation: 2s slide forwards;
+    transform: translateY(100%);
   }
 
   .SocialMedia {
@@ -1001,6 +1024,8 @@
     align-items: flex-start;
     gap: 16px;
     display: flex;
+    animation: 2s slide forwards;
+    transform: translateY(100%);
   }
 
   .SupportingText {
@@ -1414,8 +1439,6 @@
     width: 80%;
     height: 35px;
     flex-shrink: 0;
-    padding-top: 10px;
-    padding-left: 10px;
     border-radius: 8px;
     align-self: center;
     margin-bottom: 20px;
@@ -1424,6 +1447,7 @@
     resize: none;
     text-align: justify;
     align-items: center;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -1434,11 +1458,10 @@
     align-self: center;
     margin-bottom: 20px;
     border-radius: 8px;
-    padding-top: 10px;
-    padding-left: 10px;
     font-size: 15px;
     font-weight: 400;
     resize: none;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -1477,6 +1500,7 @@
   }
 
   .SpecifiedBtnSeeDetails:active {
-    color: brown;
+    color: white;
+    background-color: black;
   }
 }
