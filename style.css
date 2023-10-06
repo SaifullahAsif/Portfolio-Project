@@ -673,4 +673,822 @@
   .ContactShapesMobile {
     position: relative;
   }
+
+  .Links {
+    display: none;
+  }
+
+  .RubyRailsPc {
+    display: none;
+  }
+}
+
+/* For Desktop version! */
+
+@media screen and (min-width: 768px) {
+  .Links {
+    display: inline-flex;
+  }
+
+  .Template1MobileMain {
+    display: grid;
+    position: relative;
+    background: #f7f7f9;
+    overflow: hidden;
+  }
+
+  .ToolbarDarkCompact {
+    display: inline-flex;
+    align-self: center;
+    padding: 16px 143px;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    position: sticky;
+  }
+
+  .LogoPlaceholder {
+    display: inline-flex;
+    align-self: stretch;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .MyLogo {
+    text-align: center;
+    color: #6070ff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+
+  .NormalButtonTertiaryEnabled {
+    z-index: 1;
+    display: none;
+  }
+
+  .IconsIconMenu {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+
+  .Union {
+    width: 18px;
+    height: 12px;
+    left: 3px;
+    top: 6px;
+    position: absolute;
+  }
+
+  .HeaderBackgroundMobile {
+    height: 746px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: white;
+    border-bottom-left-radius: 20%;
+    position: relative;
+  }
+
+  .HeaderShapesMobile {
+    display: flex;
+    position: relative;
+  }
+
+  .HeaderShapesMobile img {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+  }
+
+  .Rectangle7 {
+    display: flex;
+    align-self: center;
+    width: 56.01px;
+    height: 10.02px;
+    top: 261.57px;
+    left: 693.25px;
+    position: absolute;
+    transform: rotate(40.77deg);
+    transform-origin: 0 0;
+    background: #6070ff;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse5 {
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    left: 257px;
+    top: 51.81px;
+    position: absolute;
+    transform: rotate(52.97deg);
+    transform-origin: 0 0;
+    background: #cbcdff;
+    border-radius: 9999px;
+    animation: rotate 5s infinite;
+  }
+
+  .Rectangle5 {
+    width: 161.407px;
+    height: 28.875px;
+    flex-shrink: 0;
+    left: 225.82px;
+    top: 549px;
+    position: absolute;
+    transform: rotate(23.34deg);
+    transform-origin: 0 0;
+    background: #ebebff;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse4 {
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+    left: 271px;
+    top: 553.1px;
+    position: absolute;
+    background: #6070ff;
+    border-radius: 9999px;
+  }
+
+  .Ellipse13 {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    left: 300.18px;
+    top: 470.44px;
+    position: absolute;
+    transform: rotate(341deg);
+    transform-origin: 0 0;
+    border-radius: 9999px;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse12 {
+    width: 36.896px;
+    height: 18.448px;
+    flex-shrink: 0;
+    left: 318.76px;
+    top: 455.69px;
+    position: absolute;
+    transform: rotate(7deg);
+    transform-origin: 0 0;
+    animation: rotate 5s infinite;
+  }
+
+  .Rectangle6 {
+    width: 108.669px;
+    height: 19.44px;
+    flex-shrink: 0;
+    left: -34px;
+    top: 83.49px;
+    position: absolute;
+    transform: rotate(-46.14deg);
+    transform-origin: 0 0;
+    background: #ebebff;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse11 {
+    width: 80.48px;
+    height: 40.24px;
+    transform: rotate(-156.88deg);
+    flex-shrink: 0;
+    left: -10px;
+    top: 70px;
+    position: absolute;
+    transform-origin: 0 0;
+    animation: rotate 5s infinite;
+  }
+
+  .Ellipse8 {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    left: 248px;
+    top: 6px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    border: 1px #cbcdff solid;
+  }
+
+  .Ellipse14 {
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    left: 332px;
+    top: 211px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    border: 1px #cbcdff solid;
+  }
+
+  .Ellipse15 {
+    width: 15px;
+    height: 15px;
+    left: 87px;
+    top: 541px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    border: 1px #cbcdff solid;
+  }
+
+  .Ellipse3 {
+    display: flex;
+    align-self: center;
+    width: 224px;
+    height: 224px;
+    flex-shrink: 0;
+    left: 900px;
+    top: 80.24px;
+    position: absolute;
+    border-radius: 9999px;
+    animation: rotate 5s infinite;
+  }
+
+  .Rectangle4 {
+    display: flex;
+    align-self: center;
+    width: 204px;
+    height: 47px;
+    flex-shrink: 0;
+    left: 900px;
+    top: 92.79px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+    background: #ebebff;
+    animation: rotate 5s infinite;
+  }
+
+  /* Animations of all the Ellipses are here */
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes slide {
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .Headline {
+    align-self: stretch;
+    top: 92px;
+    bottom: 100vh;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+    padding: 1rem 16.25rem;
+  }
+
+  .NavigationList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: white;
+    border-radius: 8px;
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .PrimaryText {
+    color: #091e42;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    word-wrap: break-word;
+    display: inline-flex;
+    align-self: stretch;
+    flex: 1;
+    justify-content: flex-start;
+    animation: 2s slide forwards;
+    transform: translateY(-100%);
+  }
+
+  .PrimaryTextNext {
+    color: #344563;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    align-self: stretch;
+    flex: 1;
+    animation: 2s slide forwards;
+    transform: translateY(100%);
+  }
+
+  .SocialMedia {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+    animation: 2s slide forwards;
+    transform: translateY(100%);
+  }
+
+  .PrimaryText  .PrimaryTextNext  .Socazzz
+
+  .SupportingText {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+
+  .LetSConnect {
+    color: #7f8cff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .LetSConnect:hover {
+    color: #96afff;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .SocialMediaIcons {
+    width: 170.17px;
+    height: 20px;
+    position: relative;
+  }
+
+  .WorkSection {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 100%;
+    align-items: center;
+    gap: 88px;
+  }
+
+  .Project {
+    display: flex;
+    padding: 16px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    border: 1px #dfe1e6 solid;
+    gap: 12px;
+    justify-content: flex-start;
+    border-radius: 16px;
+    background: var(--neutrals-n-0, #fff);
+  }
+
+  .Project:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 2px 2px #151c53;
+  }
+
+  .leftBlock {
+    flex: 1;
+  }
+
+  .rightBlock {
+    flex: 1;
+  }
+
+  .snapshot {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .ProjectText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    word-wrap: break-word;
+    color: #172b4d;
+  }
+
+  .ProjectFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    justify-content: flex-start;
+    gap: 12px;
+    color: #344563;
+  }
+
+  .ProjectFrameDetail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--neutrals-n-100, #7a869a);
+  }
+
+  .ProjectDetail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--neutrals-n-600, #344563);
+  }
+
+  ul {
+    padding-inline-start: 0;
+  }
+
+  .Tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .Tag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .RubyRailsPc {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+
+  .Html {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+
+  .Css {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+
+  .Js {
+    color: #6070ff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+
+  button {
+    background-color: white;
+  }
+
+  button:hover {
+    background-color: #6070ff;
+    color: #f7f7f9;
+  }
+
+  .FreeButton {
+    display: flex;
+    align-items: center;
+  }
+
+  .NormalBtn {
+    align-self: stretch;
+    padding: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px #6070ff solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+
+  .SpecifiedBtnSeeDetails {
+    text-align: center;
+    color: #396df2;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    word-wrap: break-word;
+  }
+
+  .AboutMyself {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 94%;
+    align-items: center;
+    background: var(--neutrals-n-0, #fff);
+    border-top-right-radius: 20%;
+  }
+
+  .CollapsedAboutMyself {
+    display: flex;
+    padding: 16px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    border: 1px #dfe1e6 solid;
+    gap: 12px;
+    justify-content: flex-start;
+    border-radius: 16px;
+    background: var(--neutrals-n-0, #fff);
+  }
+
+  .MyselfLeftBlock {
+    flex: 1;
+  }
+
+  .MyselfRightBlock {
+    flex: 2;
+  }
+
+  .MyselfTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .SkillList {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .Frames {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .FramesTop {
+    align-self: stretch;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 26px;
+  }
+
+  .FramesTopText {
+    width: 237px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .ScrollButton {
+    display: inline-flex;
+    align-self: center;
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .ScrollIcon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+
+  .LanguageList {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .ListItem {
+    display: flex;
+    width: 122px;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 12px 12px 20px 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .LogosInList {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    border: 1px white solid;
+  }
+
+  .TextInLanguageList {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+
+  .SeparatorBottom {
+    flex: 1;
+    height: 1px;
+    left: 0;
+    top: 71px;
+    position: absolute;
+    background: #dfe1e6;
+  }
+
+  .Framework {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .Separator {
+    width: 100%;
+    height: 1px;
+    background: #dfe1e6;
+  }
+
+  .ContactMe {
+    display: grid;
+    padding: 114px 24px;
+    grid-template-columns: 100%;
+    align-items: center;
+    gap: 88px;
+    border-top-left-radius: 20%;
+    background: var(--primary-b-400, #6070ff);
+  }
+
+  .ContactMeTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: var(--neutrals-n-0, #fff);
+  }
+
+  .ContactMeTopText {
+    align-self: stretch;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .ContactMeDetails {
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .email {
+    width: 80%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    align-self: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    resize: none;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .message {
+    width: 80%;
+    height: 170px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    resize: none;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .footer {
+    width: 134px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0d151e;
+    align-self: center;
+  }
+
+  .form-spree {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .ContactShapesMobile {
+    position: relative;
+  }
+
+  .GetInTouch {
+    text-align: center;
+    color: #396df2;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SpecifiedBtnSeeDetails:active {
+    color: brown;
+  }
 }
