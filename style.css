@@ -980,6 +980,14 @@
     font-family: 'Poppins', sans-serif;
   }
 
+  .NavigationList:hover {
+    background-color: #ebebff;
+  }
+
+  .NavigationList:active {
+    background-color: #6070ff;
+  }
+
   .PrimaryText {
     color: #091e42;
     font-size: 3rem;
