@@ -681,6 +681,14 @@
   .RubyRailsPc {
     display: none;
   }
+
+  #pc {
+    display: none;
+  }
+
+  .mobile {
+    flex-direction: column-reverse;
+  }
 }
 
 /* For Desktop version! */
@@ -1027,9 +1035,7 @@
     transform: translateY(100%);
   }
 
-  .PrimaryText  .PrimaryTextNext  .Socazzz
-
-  .SupportingText {
+  .PrimaryText .PrimaryTextNext .Socazzz .SupportingText {
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
@@ -1102,6 +1108,10 @@
     margin: 0;
     overflow: hidden;
     border-radius: 8px;
+  }
+
+  #mobile {
+    display: none;
   }
 
   .ProjectText {
@@ -1249,7 +1259,7 @@
   .AboutMyself {
     display: grid;
     padding: 114px 24px;
-    grid-template-columns: 94%;
+    grid-template-columns: 100%;
     align-items: center;
     background: var(--neutrals-n-0, #fff);
     border-top-right-radius: 20%;
